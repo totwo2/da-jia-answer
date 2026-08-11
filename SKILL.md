@@ -8,6 +8,14 @@ description: |
   Triggers: everyone answers, multi-model compare, ask all models, A/B/C test, side-by-side LLM, "da-jia-answer".
   一个问题同时问多个已配置的大模型，并行发问、多栏对比呈现各模型回答。主 Agent 自动探测用户系统上已配置的大模型，列出让用户勾选，然后并行调用、多栏对比。全程用户只需勾选模型，无需手动配置。
   触发词：大家都来回答、三路对比、多个 AI 都回答、对比回答、大家怎么看、你们几个怎么看
+license: MIT
+tags:
+  - multi-model
+  - comparison
+  - llm
+  - parallel
+  - benchmark
+allowed-tools: "Read Write Edit Bash Glob Grep WebFetch WebSearch Skill Agent"
 ---
 
 # 大家都来回答
